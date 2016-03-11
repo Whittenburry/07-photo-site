@@ -39,12 +39,13 @@
       }
     }
 
-    &__name {
-      vertical-align: middle;
-    }
   }
 
   &__logo {
     padding: $gutter;
   }
+}
+
+.navbar-left__name {
+  margin: auto auto auto 0;
 }
