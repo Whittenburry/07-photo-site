@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  position: relative;
+
+  &__avatar {
+    border-radius: 50%;
+  }
+
+  &__fa-image {
+    position: absolute;
+    margin: 0;
+
+    top: 46%;
+    right: 8%;
+
+
+    font-size: 2.5rem;
+  }
+
+  &__text {
+    position: absolute;
+    right: 18%;
+    bottom: -7%;
+
+    margin: 0;
+
+    color: $brand-white;
+  }
+
+}
+
+
+
+.header-image__fa-image {
+  font-size: 2.5rem;
+
+  color: $brand-red;
+}
