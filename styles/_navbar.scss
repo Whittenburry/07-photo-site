@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+
+  width: 100%;
+
+  color: $brand-light-grey;
+
+  &-right {
+    padding-right: $gutter;
+
+
+    &__page {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      &-options {
+        padding: $gutter;
+
+        &:hover {
+          color: $brand-red;
+        }
+      }
+
+    }
+  }
+
+  &-left {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-left: $gutter;
+
+
+    &__logo {
+
+      &:hover {
+        color: $brand-red;
+      }
+    }
+
+    &__name {
+      vertical-align: middle;
+    }
+  }
+
+  &__logo {
+    padding: $gutter;
+  }
+}
