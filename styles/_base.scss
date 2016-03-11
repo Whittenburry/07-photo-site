@@ -5,5 +5,13 @@ body {
 
   background-color: $brand-dark-grey;
 
+  color: $brand-light-grey;
+
   font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+  color: $brand-light-grey;
 }
