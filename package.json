@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "broccoli": "^0.16.9",
+    "broccoli-autoprefixer": "^4.1.0",
     "broccoli-cli": "^1.0.0",
     "broccoli-inject-livereload": "^0.2.0",
     "broccoli-lr": "^0.2.0",

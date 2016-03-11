@@ -1,5 +1,6 @@
 const Merge = require('broccoli-merge-trees');
 const Sass = require('broccoli-sass');
+const Autoprefixer = require('broccoli-autoprefixer');
 const LiveReload = require('broccoli-inject-livereload');
 
 const public = new LiveReload('public');
@@ -14,4 +15,4 @@ const stylePaths = [
 
 const styles = new Sass(stylePaths, 'app.scss', 'app.css');
 
-module.exports = new Merge([public, styles]);
+module.exports = new Merge([public, new Autoprefixer(styles)]);
