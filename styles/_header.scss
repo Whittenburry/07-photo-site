@@ -13,8 +13,8 @@
 
   &__fa-image {
     position: absolute;
-    top: 46%;
-    right: 40%;
+    top: 65%;
+    right: 38%;
 
     margin: 0;
 
@@ -35,15 +35,15 @@
 }
 
 .avatar-shading {
-  @extend: %inkwell;
+  @extend %inkwell;
 
-  -webkit-filter: sepia(0.3) contrast(1.1) brightness(0.5) grayscale();
+  filter: sepia(0.3) contrast(1.1) brightness(0.5) #{"grayscale()"};
 }
 
 
 
 .header-image__fa-image {
+  color: $brand-red;
   font-size: 2.5rem;
 
-  color: $brand-red;
 }
