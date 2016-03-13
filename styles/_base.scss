@@ -9,7 +9,16 @@ body {
 }
 
 a {
-  text-decoration: none;
-
   color: $brand-light-grey;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0;
+
+  padding-bottom: $gutter;
 }
