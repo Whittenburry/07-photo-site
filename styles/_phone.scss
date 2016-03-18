@@ -1,3 +1,13 @@
-.navbar {
-  flex-wrap: nowrap;
+.navbar-right__page-options {
+  display: none;
+}
+
+.content-photo__container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-article {
+  flex-direction: column;
+  align-items: center;
 }
