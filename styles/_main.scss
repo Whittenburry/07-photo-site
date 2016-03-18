@@ -5,15 +5,17 @@
 }
 
 .row {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-photo {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-end;
 
   padding-bottom: $gutter;
+  text-align: left;
 
   &__container {
     display: flex;
