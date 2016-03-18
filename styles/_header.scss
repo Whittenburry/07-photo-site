@@ -10,6 +10,7 @@
   position: relative;
 
   &__avatar {
+    position: relative;
     border-radius: 50%;
   }
 
@@ -45,6 +46,9 @@
 
 
 .header-image__fa-image {
+  position: absolute;
+  top: 40%;
+
   color: $brand-red;
   font-size: 2.5rem;
 
