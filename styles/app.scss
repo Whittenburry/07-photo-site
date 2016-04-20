@@ -5,13 +5,19 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'variables';
 @import 'font-awesome';
 @import 'cssgram';
+@import 'base';
 
 @import 'box-sizing';
-@import 'base';
 @import 'navbar';
 @import 'header';
 @import 'main';
 @import 'footer';
+
+/************************
+          About
+*************************/
+
+@import 'about';
 
 @media (max-width: 970px) {
   @import 'phone';

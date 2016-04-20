@@ -1,45 +1,83 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Photo Site</title>
-  <link rel="stylesheet" href="/app.css">
-</head>
-<body>
-    <main class="student-info">
-      <h2 style="text-align: center;">Just a wee bit about the photographer...</h2>
-      <p style="text-align:center">
-        If you couldn't guess by now, my name is John. I love many things.
-      </p>
-      <p style="text-align:center">
-        Most of which include:
-        <ul style="text-align:center">
-          <li>Video games</li>
-          <li>Music</li>
-          <li>Coding</li>
-        </ul>
-      </p>
-    </main>
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Site</title>
+    <link rel="stylesheet" href="/app.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h2 class="navbar-left__logo">
+          <a href="../"><span class="navbar__logo fa fa-arrow-left"></span></a>
+          <span class="navbar__logo">/</span>
+          <span class="navbar__logo fa fa-tint"></span>
+        </h2>
+        <div class="navbar-left__company">
+          <p class="navbar-left__name">Whittenburry</p>
+          <p class="navbar-left__job-title">Photography</p>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <div class="navbar-right__page">
+          <!-- <h3 class="navbar-right__page-options"></h3>
+        <h3 class="navbar-right__page-options">Work</h3>
+        <h3 class="navbar-right__page-options">Contact</h3> -->
 
-    <footer class="student-info">
-      <img class="student-info__profile-pic" src="https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/404787_10151343744225484_1144964009_n.jpg?oh=82be60df9b496dd81917d58488d4e283&oe=575282CD" alt="Ryan Tablada">
-      <h2 class="student-info__name">John Whittenburg</h2>
+          <a href="about.html" class="navbar-right__page-options">About</a>
+          <a href="public/work.html" class="navbar-right__page-options">Work</a>
+          <a href="public/contact.html" class="navbar-right__page-options">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <nav class="student-info">
+      <div class="short-info">
+        <h1 class="about">Just a wee bit about the photographer...</h1>
+      </div>
+      <div class="about-me__container">
+        <h3 class="about__about-me">
+          If you couldn't guess by now, my name is Whittenburry and I love taking pictures.
+        </h3>
+        <div class="just-another__container">
+          <h3 class="about-title">
+            Most of the time I shoot scenery like:
+            <ul class="about-title__list-items">
+              <li class="about-title__list-items__item">Nature</li>
+              <li class="about-title__list-items__item">Landscapes</li>
+              <li class="about-title__list-items__item">Architecture</li>
+            </ul>
+          </h3>
+        </div>
+      </div>
+    </nav>
 
-      <p class="student-info__bio">Front-end Engineer Student <a href='https://www.theironyard.com/locations/nashville.html'><em>@theironyard/Nashville</em></a></p>
-      <ul class="student-info__social-list">
-        <li class="student-info__social-item">
-          <a href="http://www.facebook.com/johnadamwhittenburg">Facebook</a>
-        </li>
-        <li class="student-info__social-item">
-          <a href="https://www.youtube.com/watch?v=cu29rZ2e8Ow">MyBand</a>
-        </li>
-        <li class="student-info__social-item">
-          <a href="https://www.instagram.com/whittenburry/">Instagram</a>
-        </li>
-        <!--<li class="student-info__social-item">
-          <a href="http://ryantablada.com">Delete This Link</a>-->
+    <footer class="about-image">
+      <div class="about-image__container">
+        <img class="about-image__pic" src="https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/404787_10151343744225484_1144964009_n.jpg?oh=82be60df9b496dd81917d58488d4e283&oe=575282CD" alt="Ryan Tablada">
+      </div>
+      <h2 class="about-image__name">John Whittenburg</h2>
+
+      <div class="about-me">
+        <p class="about-me__bio">Front-end Engineer Student
+          <a class="ironyard-http" target="blank" href='https://www.theironyard.com/locations/nashville.html'>
+            <em>@theironyard/Nashville</em>
+          </a>
+        </p>
+        <ul class="about-me__social-list">
+          <li class="about-me__social-item">
+            <a class="about-me__social-item" target="blank" href="http://www.facebook.com/johnadamwhittenburg">Facebook</a>
+          </li>
+          <li class="about-me__social-item">
+            <a class="about-me__social-item" target="blank" href="https://www.youtube.com/watch?v=cu29rZ2e8Ow">MyBand</a>
+          </li>
+          <li class="about-me__social-item">
+            <a class="about-me__social-item" target="blank" href="https://www.instagram.com/whittenburry/">Instagram</a>
+          </li>
+          <!--<li class="student-info__social-item">
+            <a href="http://ryantablada.com">Delete This Link</a>-->
         </li>
       </ul>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
 </html>
