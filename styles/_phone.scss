@@ -1,6 +1,8 @@
 .outer-container {
   width: 100%;
   max-width: $max-content-width;
+
+  margin: auto;
 }
 
 .navbar-right__page-options {
@@ -8,17 +10,27 @@
 }
 
 .content-photo__container {
+  display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: 0;
+}
+
+.camera-details {
+  width: 100%;
+  max-width: $max-content-width;
 }
 
 .footer-article {
   flex-direction: column;
+
   &__image {
     text-align: center;
   }
 
 }
+
 .content-photo__container__image {
   width: 75vw;
 
@@ -34,6 +46,10 @@
 
 .content-photo__ul {
   width: 75vw;
+
+  &-items {
+    text-align: left;
+  }
 }
 
 .footer-container {
