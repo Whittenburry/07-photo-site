@@ -18,7 +18,12 @@
   }
 }
 
+.footer-pics {
+  max-width: 20rem;
+}
+
 .footer-image {
+  width: 100%;
   @extend %inkwell;
 
   filter: sepia(0.3) contrast(1.1) brightness(0.5) #{"grayscale()"};
@@ -26,6 +31,6 @@
   &:hover {
     @extend %inkwell;
 
-    filter: sepia(0.3) contrast(1.1) brightness(0.5) #{"grayscale(9)"};
+    filter: sepia(0.3) contrast(1.1) brightness(1);
   }
 }
