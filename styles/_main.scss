@@ -1,5 +1,5 @@
 .outer-container {
-  width: $max-content-width;
+  max-width: $max-content-width;
 
   margin: 3rem auto;
 }
@@ -26,7 +26,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      width: 40%;
+      width: 60%;
       margin: 0;
       padding-right: 1rem;
 
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
 
-    max-width: 17rem;
+    width: 20%;
 
     padding-left: 1rem;
 

@@ -8,9 +8,11 @@
 
 .header-image {
   position: relative;
+  display: flex;
 
   &__avatar {
     position: relative;
+    justify-content: center;
     border-radius: 50%;
   }
 
@@ -27,11 +29,13 @@
 
   &__text {
     position: absolute;
-      right: 10%;
-      bottom: 0%;
+    right: 0;
+    bottom: 10%;
 
     margin: 0;
 
+    text-align: center;
+    width: 100%;
     color: $brand-white;
   }
 
