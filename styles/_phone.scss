@@ -1,0 +1,60 @@
+.outer-container {
+  width: 100%;
+  max-width: $max-content-width;
+
+  margin: auto;
+}
+
+.content-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0;
+}
+
+.footer-article {
+  flex-direction: column;
+
+  &__image {
+    text-align: center;
+  }
+
+}
+
+.content-photo__container__image {
+  width: 75vw;
+
+  padding: 0;
+}
+
+.content-photo__container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+}
+
+.content-photo__ul {
+  width: 75vw;
+
+  padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 75vw;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-right__page-options {
+  display: none;
+}
+
+.ze-hamburger {
+  display: block;
+}

@@ -1,0 +1,109 @@
+.student-info {
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.short-info {
+  width: 100%;
+
+  border-radius: 0.2rem;
+  color: $brand-red;
+}
+
+.about {
+  width: 100%;
+  max-width: $max-content-width;
+
+  margin: 0 auto;
+  padding: $gutter;
+
+  font-size: 2rem;
+
+  &__about-me {
+  }
+}
+
+.about-me__container {
+  width: 100%;
+  max-width: $max-content-width;
+
+  margin: auto;
+
+  font-size: 1.2rem;
+}
+
+.about__about-me {
+  color: $brand-white;
+}
+
+.just-another__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-title {
+  margin: 0;
+  color: $brand-red;
+
+  &__list-items {
+    padding: 0;
+    &__item {
+      padding: $gutter / 4 0;
+      color: $brand-white;
+    }
+  }
+}
+
+.about-image {
+  width: 100%;
+  max-width: $max-content-width;
+
+  margin: 0 auto;
+
+  &__container {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__pic {
+    width: 30rem;
+  }
+
+  &__name {
+    color: $brand-red;
+  }
+}
+
+.ironyard-http {
+  color: $brand-red;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.about-me {
+
+  &__bio {
+    color: $brand-white;
+  }
+
+  &__social-list {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  &__social-item {
+    padding: $gutter / 4 $gutter / 1.1;
+    color: $brand-red;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+}

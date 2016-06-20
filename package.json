@@ -7,22 +7,26 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/broccoli-lr serve",
     "build": "./node_modules/.bin/broccoli build dist",
-    "lint": "./node_modules/.bin/sass-lint"
+    "lint": "./node_modules/.bin/sass-lint",
+    "deploy": "ember build -e production && surge dist photosite-whittenburry.surge.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cssgram": "^0.1.3",
     "font-awesome": "^4.5.0",
     "normalize-css": "^2.3.1",
     "yoga-sass": "^1.0.1"
   },
   "devDependencies": {
     "broccoli": "^0.16.9",
+    "broccoli-autoprefixer": "^4.1.0",
     "broccoli-cli": "^1.0.0",
     "broccoli-inject-livereload": "^0.2.0",
     "broccoli-lr": "^0.2.0",
     "broccoli-merge-trees": "^1.1.1",
     "broccoli-sass": "^0.7.0",
+    "ember-cli": "^2.6.2",
     "sass-lint": "^1.5.1"
   }
 }

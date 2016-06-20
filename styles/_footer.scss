@@ -1,0 +1,36 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: $max-content-width;
+
+  margin: auto;
+}
+
+.footer-article {
+  display: flex;
+  flex-direction: row;
+
+  &__image {
+    margin: 0 $gutter;
+  }
+}
+
+.footer-pics {
+  max-width: 20rem;
+}
+
+.footer-image {
+  width: 100%;
+  @extend %inkwell;
+
+  filter: sepia(0.3) contrast(1.1) brightness(0.5) #{"grayscale()"};
+
+  &:hover {
+    @extend %inkwell;
+
+    filter: sepia(0.3) contrast(1.1) brightness(1);
+  }
+}
