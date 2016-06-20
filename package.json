@@ -26,6 +26,7 @@
     "broccoli-lr": "^0.2.0",
     "broccoli-merge-trees": "^1.1.1",
     "broccoli-sass": "^0.7.0",
+    "ember-cli": "^2.6.2",
     "sass-lint": "^1.5.1"
   }
 }

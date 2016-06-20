@@ -3,7 +3,11 @@ const Sass = require('broccoli-sass');
 const Autoprefixer = require('broccoli-autoprefixer');
 const LiveReload = require('broccoli-inject-livereload');
 
-const public = new LiveReload('public');
+let public = new LiveReload('public');
+
+if (process.env.EMBER_ENV === 'production') {
+  public = 'public';
+}
 
 const stylePaths = [
   'styles',
