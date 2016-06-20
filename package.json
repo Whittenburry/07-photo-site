@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/broccoli-lr serve",
     "build": "./node_modules/.bin/broccoli build dist",
-    "lint": "./node_modules/.bin/sass-lint"
+    "lint": "./node_modules/.bin/sass-lint",
+    "deploy": "ember build -e production && surge dist photosite-whittenburry.surge.sh"
   },
   "author": "",
   "license": "ISC",
